@@ -1,2 +1,2 @@
 * @jtrim
-/infra/**/* @jdkiefer
+/.github/workflows/foo.yaml
