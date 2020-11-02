@@ -1,0 +1,14 @@
+name: Automate Foo
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - infra/cfn-foo.yaml
+      - .github/workflows/foo.yaml
+
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+    steps: []
